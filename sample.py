@@ -18,7 +18,7 @@ class Grid:
             if i % 3 == 0:
                 rslt += '\n'
             if isvalid:
-                rslt += '%d ' % value
+                rslt += '%d, ' % value
             else:
                 rslt += '* '
             i += 1
